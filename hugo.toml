@@ -1,0 +1,13 @@
+baseURL = 'https://silasvasconcelos.com'
+languageCode = 'pt-br'
+title = 'Silas Vasconcelos'
+theme = 'PaperMod'
+
+[params]
+  author = 'Silas Vasconcelos'
+  description = 'Desenvolvedor Full Stack'
+  keywords = ['Silas Vasconcelos', 'Silas Vasconcelos']
+  socialIcons = [
+    { name = 'GitHub', url = 'https://github.com/silasvasconcelos' },
+    { name = 'LinkedIn', url = 'https://www.linkedin.com/in/silasvasconcelos/' },
+  ]
