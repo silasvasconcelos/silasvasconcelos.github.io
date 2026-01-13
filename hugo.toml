@@ -1,13 +1,21 @@
-baseURL = 'https://silasvasconcelos.com'
+# baseURL = 'https://silasvasconcelos.com'
+baseURL = 'http://localhost:1313'
 languageCode = 'pt-br'
 title = 'Silas Vasconcelos'
 theme = 'PaperMod'
 
+sectionPagesMenu = 'main'
+
 [params]
-  author = 'Silas Vasconcelos'
-  description = 'Desenvolvedor Full Stack'
-  keywords = ['Silas Vasconcelos', 'Silas Vasconcelos']
   socialIcons = [
-    { name = 'GitHub', url = 'https://github.com/silasvasconcelos' },
-    { name = 'LinkedIn', url = 'https://www.linkedin.com/in/silasvasconcelos/' },
+    { name = "github", url = "https://github.com/silasvasconcelos" },
+    { name = "linkedin", url = "https://linkedin.com/in/silasvasconcelos" }
   ]
+
+  [params.homeInfoParams]
+    Title = "Olá 👋"
+    Content = """Sou **Desenvolvedor Full-stack** com mais de 14 anos de experiência, focado em entender as necessidades dos clientes e entregar soluções eficientes e inovadoras.
+
+Trabalho com diversas tecnologias como PHP, Python, C#, Node.js, além de frameworks modernos como Laravel, Django, Vue.js e React. Tenho experiência em DevOps, arquitetura de eventos, serviços de nuvem (AWS) e liderança técnica.
+
+Sou proativo e estou sempre buscando aprender novas tecnologias para criar soluções inovadoras. Vamos conversar?"""
