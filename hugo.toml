@@ -1,5 +1,4 @@
-# baseURL = 'https://silasvasconcelos.com'
-baseURL = 'http://localhost:1313'
+baseURL = 'https://silasvasconcelos.com'
 languageCode = 'pt-br'
 title = 'Silas Vasconcelos'
 theme = 'PaperMod'
